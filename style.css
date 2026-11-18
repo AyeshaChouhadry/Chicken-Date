@@ -1,0 +1,135 @@
+/* this .screen is used for managing screen visibility */
+.screen {
+    display : none;
+    text-align: center;
+    padding: 40px 16px;
+    
+}
+
+/* this .screen.active is used for managing screen visibility */
+.screen.active{
+    display: block;
+}
+
+/* general styling for the body and elements */
+body {
+  background: linear-gradient(to right, #3d0750, #c27211);
+  font-family: Arial, sans-serif;
+  color: #f7e304;
+  text-shadow: 2px 2px black;
+
+  
+}
+
+#starter-heading {
+  margin-bottom: 0;
+  border: 2px solid #f7e304;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 120px;
+  border-color: #f7e304;
+  border-width: 2px;
+  border-style: solid;
+  display: inline-block;
+
+}
+
+#splash {    
+  box-sizing: border-box;
+  min-height: 100vh;
+  font-size: 2rem;
+  background-image: url('chicken-tender.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#splash-para {
+  font-size: 1.2rem;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+#question-heading {
+  margin-bottom: 0;
+  margin-top: 70px;
+  border: 8px  #4b4506;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  border-radius: 30px;
+  border-color: #da8917;
+  border-width: 4px;
+  border-style: solid;
+  display: inline-block;
+  background: linear-gradient(to right, #3d0750, #c27211);
+
+}
+
+#hello-heading {
+ margin : 0;
+ border: none;
+ border-bottom: 5px solid #f7e304;
+ background-color: rgba(0, 0, 0, 0.5);
+ padding: 0;
+ border-radius: 10;
+ text-shadow: 2px 2px rgb(214, 59, 85);
+ background: linear-gradient(to right, #3d0750, #c27211);
+ 
+}
+
+#question-title {
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-style:oblique;
+}
+
+#question-para {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  Margin-bottom: 20px;
+  font-style: italic;
+  padding: 10px;
+  text-shadow: 2px 2px rgb(214, 59, 85);
+}
+
+
+
+/* styling for the buttons */
+button {
+  font-size: 1.2rem;
+  padding: 12px 28px;
+  margin: 8px;
+  border: 3px solid #df9307;
+  border-radius: 20px;
+  cursor: pointer;
+  background: linear-gradient(to right, #5a2e69, #c27211);
+  color:#f9f106 ;
+  text-shadow: 2px 2px rgb(214, 59, 85);
+}
+
+#party-time {
+  font-size: 5rem;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding: 10px;
+  font-style:oblique;
+  text-shadow: 2px 2px rgb(214, 59, 85);
+}
+
+#dance-text {
+  font-size: 2rem;
+  margin-top: 20px;
+  Margin-bottom: 20px;
+  font-style: italic;
+  padding: 10px;
+  text-shadow: 2px 2px rgb(214, 59, 85);
+}
+
+#dance-gif {
+  margin-top: 20px;
+  border: 5px solid #df9307;
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
+}
